@@ -1,4 +1,4 @@
-# CraftingPopup Explained:
+# CraftingPopup Explained
 If you do not have a crafting table on you and you really need to craft something, just type /craft and a craftingtable will popup!
 
 # For what kind of servers can this plugin come in handy?
