@@ -23,7 +23,7 @@ class Main extends PluginBase{
         $this->getLogger()->info("+====================+");
     }
 
-    public function sendBlock(Player $player) {
+    public function sendCraftingTable(Player $player) {
         $block1 = Block::get(Block::CRAFTING_TABLE);
         $block1->x = (int)floor($player->x);
         $block1->y = (int)floor($player->y) - 2;
@@ -36,7 +36,7 @@ class Main extends PluginBase{
         switch($command->getName()){
             case "craft":
                 if($sender instanceof Player){
-                  $this->sendBlock($sender);
+                  $this->sendCraftingTable($sender);
                    $sender->setCraftingGrid(new CraftingGrid($sender, CraftingGrid::SIZE_BIG));
                    if(!array_key_exists($windowId = Player::HARDCODED_CRAFTING_GRID_WINDOW_ID, $sender->openHardcodedWindows)){
                    $pk = new ContainerOpenPacket();
