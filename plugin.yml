@@ -1,0 +1,12 @@
+name: CraftingPopup
+version: 1.0.0
+main: MrChicken\Main
+api: 3.0.0
+author: MrChickenOG
+
+commands:
+ craft:
+  description: You dont need to bring a crafting table anymore!
+  usage: "/craft"
+  permission: craft.command
+  permission-message: "You do not have permissions to use this command!"
