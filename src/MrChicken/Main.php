@@ -17,10 +17,10 @@ use function array_key_exists;
 class Main extends PluginBase{
 
     public function onLoad() : void{
-        $this->getLogger()->info("+===================+");
+        $this->getLogger()->info("+====================+");
         $this->getLogger()->info("CraftingPopup by MrChicken");
         $this->getLogger()->info("Do not change the Author name!");
-        $this->getLogger()->info("+===================+");
+        $this->getLogger()->info("+====================+");
     }
 
     public function sendBlock(Player $player) {
