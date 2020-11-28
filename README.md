@@ -5,6 +5,7 @@ If you do not have a crafting table on you and you really need to craft somethin
 - HCF
 - Factions
 - Survival
+- Probaly other too
 
 # Are there any permissions for the command?
 No theres not everyone has acces to use /craft.
