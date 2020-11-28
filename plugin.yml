@@ -8,5 +8,3 @@ commands:
  craft:
   description: You dont need to bring a crafting table anymore!
   usage: "/craft"
-  permission: craft.command
-  permission-message: "You do not have permissions to use this command!"
