@@ -15,14 +15,7 @@ use pocketmine\block\Block;
 use function array_key_exists;
 
 class Main extends PluginBase{
-
-    public function onLoad() : void{
-        $this->getLogger()->info("+====================+");
-        $this->getLogger()->info("CraftingPopup by MrChicken");
-        $this->getLogger()->info("Do not change the Author name!");
-        $this->getLogger()->info("+====================+");
-    }
-
+    
     public function sendCraftingTable(Player $player) {
         $block1 = Block::get(Block::CRAFTING_TABLE);
         $block1->x = (int)floor($player->x);
