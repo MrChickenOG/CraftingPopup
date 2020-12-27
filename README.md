@@ -1,4 +1,4 @@
-<h1>CraftingPopup<img src="https://github.com/CodsXBlastin/PortableCraftingMenu/blob/main/icon.png?raw=true" height="64" width="64" align="left"></img></a></h1>
+<h1>CraftingPopup<img src="https://github.com/MrChickenOG/CraftingPopup/blob/main/icon.png?raw=true" height="64" width="64" align="left"></img></a></h1>
 
 ## CraftingPopup
 
