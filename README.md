@@ -1,14 +1,17 @@
-# CraftingPopup Explained
-If you do not have a crafting table on you and you really need to craft something, just type /craft and a craftingtable will popup!
+<h1>CraftingPopup<img src="https://github.com/CodsXBlastin/PortableCraftingMenu/blob/main/icon.png?raw=true" height="64" width="64" align="left"></img></a></h1>
 
-# For what kind of servers can this plugin come in handy?
-- HCF
-- Factions
-- Survival
-- Probaly other too
+## CraftingPopup
 
-# Are there any permissions for the command?
-No theres not everyone has acces to use /craft.
+Useful plugin that allows you to open an crafting bench anywhere!
 
-# NOTE:
-Do not change the author name of this plugin! The original author of this plugin is 'MrChickenOG/MrChicken219' (me).
+## Usage
+Type '/craft' in chat
+
+## How To Install
+1. Download the *latest* .phar file.                                                                            
+2. Place the .phar file inside your Server's Directory for Plugins (Reffered to as /plugins/).         
+3. Reload/Restart your server. 
+4. Enjoy!  
+
+## License
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) for more Information.
